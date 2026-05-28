@@ -3,7 +3,7 @@ import PackageDescription
 
 let package = Package(
   name: "StorytellerLottie",
-  platforms: [.iOS(.v13)],
+  platforms: [.iOS(.v13), .tvOS(.v13)],
   products: [
     .library(name: "StorytellerLottie", targets: ["StorytellerLottie"]),
   ],
@@ -11,7 +11,7 @@ let package = Package(
     .binaryTarget(
       name: "StorytellerLottie",
       url: "https://storyteller.azureedge.net/sdk-ios/storyteller-lottie/4.6.0/StorytellerLottie.zip",
-      checksum: "782ce44d2b5fb148fddf345c143534de55c2d07cce605f3a316500ee91afd299"
+      checksum: "d78b2b9ee20e8cf94116ce41861185c95c61ee557e5dfbf995193b299d6297c7"
     ),
   ]
 )
