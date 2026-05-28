@@ -10,8 +10,8 @@ let package = Package(
   targets: [
     .binaryTarget(
       name: "StorytellerLottie",
-      url: "https://storyteller.azureedge.net/sdk-ios/storyteller-lottie/4.6.0/StorytellerLottie.zip",
-      checksum: "d78b2b9ee20e8cf94116ce41861185c95c61ee557e5dfbf995193b299d6297c7"
+      url: "https://storyteller.azureedge.net/sdk-ios/storyteller-lottie/4.6.0/StorytellerLottie.zip?checksum=67c67005bae8490e4904bf641922c1b96ed8c7c75cd6c155ca90556b20aee185",
+      checksum: "67c67005bae8490e4904bf641922c1b96ed8c7c75cd6c155ca90556b20aee185"
     ),
   ]
 )
